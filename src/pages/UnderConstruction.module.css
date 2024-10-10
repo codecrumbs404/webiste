@@ -1,0 +1,52 @@
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: #fff;
+}
+
+.main {
+  margin-top: 900px;
+  text-align: center;
+  background: black;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+}
+a
+.description {
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+.contactContainer {
+  background: black;
+  padding: 20px 30px;
+  margin-top: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.contactLink {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.main img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.body{
+  background: black;
+}
