@@ -3,6 +3,7 @@ name: Trigger URL Every Night
 on:
   schedule:
     - cron: '15 14 * * *'  # Every day at 2:15 PM UTC (which is 8:00 PM GMT+5:45)
+  workflow_dispatch:   # Allow manual trigger
 
 jobs:
   call-api:
